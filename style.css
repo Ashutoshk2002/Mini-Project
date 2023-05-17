@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg_cloud.avif');
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    margin-top: 40px;
+}
+
+#file-list {
+    color: antiquewhite;
+}
+
+.glass {
+    position: relative;
+    left:27.5em;
+    height:28em;
+    width:40em;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#uploadForm {
+    margin: 50px 0px;
+}
+
+#uploadForm input[type="file"] {
+    display: none;
+}
+
+#uploadForm label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#fileList {
+    margin-top: 20px;
+}
+
+#fileList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fileList ul li {
+    text-align: end;
+    margin: 5px auto;
+}
+
+#fileList ul li a {
+    color: white;
+}
+
+#fileList ul li a:hover {
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.delete-btn {
+
+    background-color: rgba(23,26,32,.8);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    flex-grow: 1;
+    font-family: SFProText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    height: 36px;
+    line-height: 20px;
+    margin-left: 8px;
+    margin-right: 6px;
+    padding: 0 16px 0 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color:black
+}
+
+
+
+#footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#files {
+    margin-top: 20px;
+    display: flex;
+    /* width: 100vw; */
+    flex-direction: column;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.546);
+    font-size: small;
+}

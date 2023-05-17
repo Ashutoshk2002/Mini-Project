@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cloud File Storage</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Upload and download your files here</h1>
+
+    <div id="uploadForm">
+        <input type="file" id="fileInput" multiple />
+        <label for="fileInput">Choose Files</label>
+    </div>
+    <div class="glass">
+        <div id="fileList">
+            <h3 id="file-list">- - - - - Uploaded File List - - - - -</h3>
+            <p>. . . Click on file name to download it</p>
+            <ul id="files"></ul>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&#169; 2023 - Cloud Computing</p>
+    </footer>
+
+    <!-- script file -->
+    <script src="cloud.js"></script>
+</body>
+</html>
